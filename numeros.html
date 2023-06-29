@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Formulação de questão</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body class="telaNumeros">
+    <div id="container">
+        <section id="pontos">
+            <h4 id="jUm"></h4>  <span id="pontuacaoJUm"></span>  
+            <br>
+            <h4 id="jDois"></h4> <span id="pontuacaoJDois"></span>  
+        </section>
+        <center>
+            <section id="pessoas">
+                <h4>Quem pergunta:  <span id="questionador"> </span>  </h4>
+                <h4>Quem responde:  <span id="respondedor"> </span>  </h4>
+            </section>
+            <div id="output" class="col-lg-6"> </div>
+
+            <section id="numero1">
+                <h4> Algarismo 1</h4>
+                <input id="n1" class="caixaNumber" type="number">
+            </section>
+
+            <section id="numero2">
+                <h4> Algarismo 2</h4>
+                <input id="n2" class="caixaNumber" type="number"> 
+            </section>
+            
+            <button id="enviarNumero" class="button" onclick="enviar()"> Enviar </button>
+        </center>
+    </div>
+    <script src = "main.js"></script>
+</body> 
+</html>

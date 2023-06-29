@@ -1,0 +1,95 @@
+.bodyBackgroundD{
+    background-image:url(fundo_neon.png);
+    background-size:cover;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+#usuarioUm{
+    margin-top: 350px;
+    margin-left: 500px;
+    background-color: rgb(255, 24, 217);
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+#usuarioDois{
+    margin-top: 350px;
+    margin-left: 350px;
+    background-color: rgb(0, 81, 255);
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+input{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#iniciar{
+    margin-top: 100px;
+    margin-left: 900px;
+}
+.telaNumeros{
+    background-image:url(telaQuestao.png);
+    background-position:center;
+    background-size:cover;
+    height: 900px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 100px;
+}
+.caixaNumber{
+    width: 350px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+#pessoas{
+    margin-top: 120px;
+    font-size: 50px;
+}
+#enviarNumero{
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: black;
+}
+#pontos{
+    margin-left: 300px;
+    font-size: 25px;
+}
+#output{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top: 10px solid #51ceff;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+#jUm, #jDois{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 60px
+}
+#jDois{
+    margin-top: 0px;
+}
+#n1{
+   margin-top: 5px; 
+}
